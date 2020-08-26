@@ -13,7 +13,7 @@ class First extends React.Component {
   render() {
     return (
       <div>
-        <h1>JavaTpoint</h1>
+        <h1>J {this.props.name}</h1>
       </div>
     );
   }
@@ -28,4 +28,8 @@ class Second extends React.Component {
     );
   }
 }
+
+First.defaultProps = {
+  name: "JavaTpoint"
+};
 export default FuncComp;
