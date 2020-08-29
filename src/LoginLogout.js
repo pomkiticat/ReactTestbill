@@ -1,4 +1,5 @@
 import React from "react";
+import Car from "./test";
 
 class LoginControl extends React.Component {
   constructor(props) {
@@ -46,7 +47,7 @@ function UserGreeting(props) {
 }
 
 function GuestGreeting(props) {
-  return <h1>Please sign up.</h1>;
+  return <Car />;
 }
 
 function LoginButton(props) {
