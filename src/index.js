@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import LoginControl from "./LoginLogout";
 // import Car from "./test";
-import FuncComp from "./functionComp";
-import StateFull from "./stateFull";
+// import FuncComp from "./functionComp";
+// import StateFull from "./stateFull";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -12,8 +13,9 @@ ReactDOM.render(
     <App />
     {/* <Car /> */}
     {/* FuncComp is  used for test functional component */}
-    <FuncComp />
-    <StateFull />
+    {/* <FuncComp />
+    <StateFull /> */}
+    <LoginControl />
   </React.StrictMode>,
   rootElement
 );
